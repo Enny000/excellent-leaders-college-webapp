@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Excellent Leaders College illustration">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9f7f2"/><stop offset="1" stop-color="#dcecff"/></linearGradient>
+      <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#003366"/><stop offset="1" stop-color="#001f3f"/></linearGradient>
+      <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00b487"/><stop offset="1" stop-color="#007a5e"/></linearGradient>
+      <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efd36c"/><stop offset="1" stop-color="#c9af37"/></linearGradient>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#003366" flood-opacity=".16"/></filter>
+      <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="2" fill="#003366" opacity=".08"/></pattern>
+    </defs>
+    
+<rect width="1200" height="800" fill="url(#sky)"/><circle cx="975" cy="130" r="78" fill="#c9af37"/><path d="M0 610c250-95 410-55 600 20s390 50 600-40v210H0z" fill="#009f79"/>
+<g filter="url(#shadow)"><rect x="225" y="260" width="750" height="340" rx="18" fill="#fff"/><path d="M165 270L600 90l435 180z" fill="#003366"/><rect x="530" y="385" width="140" height="215" fill="#003366"/><rect x="290" y="350" width="130" height="105" fill="#dff5ff" stroke="#c9af37" stroke-width="10"/><rect x="780" y="350" width="130" height="105" fill="#dff5ff" stroke="#c9af37" stroke-width="10"/></g>
+
+    </svg>

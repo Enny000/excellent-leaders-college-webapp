@@ -1,0 +1,17 @@
+{
+  "name": "Excellent Leaders College",
+  "short_name": "ELC",
+  "description": "Public school website and role-based school portal demo.",
+  "start_url": "./#/home",
+  "display": "standalone",
+  "background_color": "#001d3a",
+  "theme_color": "#003366",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

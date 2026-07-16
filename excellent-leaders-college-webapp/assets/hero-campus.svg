@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Excellent Leaders College illustration">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9f7f2"/><stop offset="1" stop-color="#dcecff"/></linearGradient>
+      <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#003366"/><stop offset="1" stop-color="#001f3f"/></linearGradient>
+      <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00b487"/><stop offset="1" stop-color="#007a5e"/></linearGradient>
+      <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efd36c"/><stop offset="1" stop-color="#c9af37"/></linearGradient>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#003366" flood-opacity=".16"/></filter>
+      <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="2" fill="#003366" opacity=".08"/></pattern>
+    </defs>
+    
+<rect width="1200" height="800" rx="48" fill="url(#sky)"/>
+<rect width="1200" height="800" rx="48" fill="url(#dots)"/>
+<circle cx="1010" cy="130" r="74" fill="#c9af37" opacity=".95"/>
+<path d="M0 600C190 520 300 535 470 595s350 55 730-80v285H0z" fill="#bcebd7"/>
+<path d="M0 670c240-90 410-60 610 10s390 60 590-18v138H0z" fill="#009f79" opacity=".88"/>
+<g filter="url(#shadow)">
+ <path d="M210 300h720v300H210z" fill="#fff"/>
+ <path d="M160 300l410-195 410 195z" fill="url(#navy)"/>
+ <path d="M520 165h100v62H520z" fill="#c9af37"/>
+ <path d="M505 165h130l-65-56z" fill="#c8102e"/>
+ <rect x="520" y="396" width="100" height="204" rx="4" fill="#003366"/>
+ <rect x="260" y="365" width="105" height="90" rx="8" fill="#dff5ff" stroke="#003366" stroke-width="10"/>
+ <path d="M312 365v90M260 410h105" stroke="#003366" stroke-width="7"/>
+ <rect x="405" y="365" width="80" height="90" rx="8" fill="#dff5ff" stroke="#003366" stroke-width="10"/>
+ <path d="M445 365v90M405 410h80" stroke="#003366" stroke-width="7"/>
+ <rect x="665" y="365" width="80" height="90" rx="8" fill="#dff5ff" stroke="#003366" stroke-width="10"/>
+ <path d="M705 365v90M665 410h80" stroke="#003366" stroke-width="7"/>
+ <rect x="785" y="365" width="105" height="90" rx="8" fill="#dff5ff" stroke="#003366" stroke-width="10"/>
+ <path d="M837 365v90M785 410h105" stroke="#003366" stroke-width="7"/>
+ <rect x="295" y="500" width="125" height="54" rx="27" fill="#c9af37"/>
+ <text x="357" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#003366">EXCELLENCE</text>
+</g>
+<g transform="translate(110 545)">
+ <circle cx="65" cy="38" r="28" fill="#6b402c"/><path d="M26 136c4-53 24-75 39-75s36 22 40 75z" fill="#c8102e"/><path d="M46 75l18 25 20-25" fill="#fff"/>
+ <circle cx="165" cy="38" r="28" fill="#9a6542"/><path d="M126 136c4-53 24-75 39-75s36 22 40 75z" fill="#003366"/><path d="M146 75l18 25 20-25" fill="#fff"/>
+ <circle cx="265" cy="38" r="28" fill="#4f2b20"/><path d="M226 136c4-53 24-75 39-75s36 22 40 75z" fill="#009f79"/><path d="M246 75l18 25 20-25" fill="#fff"/>
+</g>
+<g transform="translate(930 515)">
+ <circle cx="55" cy="42" r="30" fill="#6b402c"/><path d="M12 150c4-62 27-87 43-87s40 25 44 87z" fill="#003366"/><path d="M35 80l20 27 22-27" fill="#fff"/>
+ <circle cx="145" cy="42" r="30" fill="#8d5a3b"/><path d="M102 150c4-62 27-87 43-87s40 25 44 87z" fill="#c9af37"/><path d="M125 80l20 27 22-27" fill="#fff"/>
+</g>
+
+    </svg>
