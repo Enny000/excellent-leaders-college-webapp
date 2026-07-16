@@ -1,4 +1,4 @@
-# Excellent Leaders College Web App
+# Excellent Leaders Secondary School Web App
 
 A complete, responsive school website and role-based portal prototype created from the supplied planning images and the high-level structure of the referenced Eduka education template.
 
@@ -77,7 +77,7 @@ Edit the `school` object at the top of `js/data.js`:
 - office hours
 - student and staff statistics
 
-The supplied crest image says “Excellent Leaders Secondary School,” while the requested website name is “Excellent Leaders College.” Replace `assets/elc-crest.png` with the final approved high-resolution crest or wordmark before launch.
+The supplied crest image says “Excellent Leaders Secondary School,” while the requested website name is “Excellent Leaders Secondary School.” Replace `assets/elc-crest.png` with the final approved high-resolution crest or wordmark before launch.
 
 ## Forms and data
 
@@ -108,3 +108,4 @@ The design uses the requested school palette:
 - Charcoal: `#26323F`
 
 The public-site information architecture follows the broad education-template pattern the user referenced: top contact bar, primary navigation, large hero, feature cards, about, statistics, academic areas, gallery, events, news, calls to action and a structured footer.
+

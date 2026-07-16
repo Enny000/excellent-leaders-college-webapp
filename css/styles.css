@@ -3145,3 +3145,45 @@ textarea.form-control {
     transform: none;
   }
 }
+
+
+/* MOBILE MENU FIX */
+@media (max-width: 1120px) {
+  /*
+    backdrop-filter was causing the fixed menu to be trapped
+    inside the sticky header.
+  */
+  .site-header {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  /*
+    Make the mobile navigation fill the full browser height.
+  */
+  #site-nav {
+    position: fixed;
+    z-index: 1200;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 100vh;
+    height: 100dvh;
+
+    max-height: 100vh;
+    max-height: 100dvh;
+
+    overflow-y: auto;
+    overscroll-behavior: contain;
+
+    background: #ffffff;
+  }
+
+  /*
+    Put the dark overlay behind the navigation menu.
+  */
+  #nav-overlay {
+    z-index: 950;
+  }
+}

@@ -1,12 +1,12 @@
 window.ELC_DATA = {
   school: {
-    name: "Excellent Leaders College",
+    name: "Excellent Leaders Secondary School",
     shortName: "ELC",
     motto: "Knowledge • Leadership • Discipline",
-    phone: "+233 20 000 0000",
-    email: "info@excellentleaderscollege.edu",
+    phone: "+234 80 6333 9381",
+    email: "excellentleaders04@gmail.com",
     admissionsEmail: "admissions@excellentleaderscollege.edu",
-    address: "School Campus, Ghana",
+    address: "Lagos, Nigeria",
     hours: "Mon–Fri, 7:30 AM–4:30 PM",
     established: 2014,
     students: 860,
@@ -206,3 +206,4 @@ window.ELC_DATA = {
     ]
   }
 };
+

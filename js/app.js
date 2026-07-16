@@ -141,10 +141,10 @@
 
   function brandMarkup(light = false) {
     return `
-      <a class="brand" href="#/home" data-route="/home" aria-label="Excellent Leaders College home">
-        <img src="assets/elc-crest.png" alt="Excellent Leaders College crest" />
+      <a class="brand" href="#/home" data-route="/home" aria-label="Excellent Leaders Secondary School home">
+        <img src="assets/elc-crest.png" alt="Excellent Leaders Secondary School crest" />
         <span class="brand-copy">
-          <span class="brand-name">Excellent Leaders College</span>
+          <span class="brand-name">Excellent Leaders Secondary School</span>
           <span class="brand-motto">Knowledge • Leadership • Discipline</span>
         </span>
       </a>`;
@@ -239,7 +239,7 @@
         <div class="container footer-main">
           <div class="footer-brand">
             ${brandMarkup()}
-            <p>Excellent Leaders College develops knowledgeable, disciplined and confident young people prepared to lead and serve.</p>
+            <p>Excellent Leaders Secondary School develops knowledgeable, disciplined and confident young people prepared to lead and serve.</p>
             <div class="topbar-social"><a class="social-link" href="#" aria-label="Facebook">f</a><a class="social-link" href="#" aria-label="Instagram">ig</a><a class="social-link" href="#" aria-label="YouTube">yt</a></div>
           </div>
           <div>
@@ -272,7 +272,7 @@
           </div>
         </div>
         <div class="container footer-bottom">
-          <span>© ${year} Excellent Leaders College. All rights reserved.</span>
+          <span>© ${year} Excellent Leaders Secondary School. All rights reserved.</span>
           <div class="footer-legal"><a href="#/about">Privacy</a><a href="#/about">Terms</a><a href="#/contact" data-route="/contact">Support</a></div>
         </div>
       </footer>`;
@@ -356,7 +356,7 @@
       <section class="hero">
         <div class="container hero-inner">
           <div class="hero-copy">
-            <span class="eyebrow">Welcome to Excellent Leaders College</span>
+            <span class="eyebrow">Welcome to Excellent Leaders Secondary School</span>
             <h1>Building bright minds and <span class="accent">excellent leaders.</span></h1>
             <p class="hero-description">A professional, student-centred school community where academic excellence, strong character and practical leadership grow together.</p>
             <div class="hero-actions">
@@ -366,7 +366,7 @@
             <div class="hero-trust"><span>${icon("check")} Safe learning environment</span><span>${icon("check")} Qualified teachers</span><span>${icon("check")} Parent partnership</span></div>
           </div>
           <div class="hero-visual">
-            <img src="assets/hero-campus.svg" alt="Illustration of the Excellent Leaders College campus and students" />
+            <img src="assets/hero-campus.svg" alt="Illustration of the Excellent Leaders Secondary School campus and students" />
             <div class="floating-card one"><span class="icon-badge">${icon("chart")}</span><div><strong>Strong progress</strong><small>Whole-child development</small></div></div>
             <div class="floating-card two"><span class="icon-badge">${icon("shield")}</span><div><strong>Character first</strong><small>Knowledge • Leadership • Discipline</small></div></div>
           </div>
@@ -387,7 +387,7 @@
           <div class="reveal">
             <span class="eyebrow">About our school</span>
             <h2>Education that prepares learners for school, life and leadership.</h2>
-            <p class="lead">Excellent Leaders College combines high academic expectations with discipline, wellbeing, creativity and service.</p>
+            <p class="lead">Excellent Leaders Secondary School combines high academic expectations with discipline, wellbeing, creativity and service.</p>
             <ul class="check-list">
               <li>${icon("check")} Clear teaching, regular assessment and targeted academic support.</li>
               <li>${icon("check")} Leadership opportunities through clubs, projects and student service.</li>
@@ -471,18 +471,18 @@
 
   function aboutPage() {
     return `
-      ${pageHero("A school built around purpose, character and progress.", "Learn about the story, values and people behind Excellent Leaders College.", "About Us")}
+      ${pageHero("A school built around purpose, character and progress.", "Learn about the story, values and people behind Excellent Leaders Secondary School.", "About Us")}
       <section class="section">
         <div class="container page-split">
-          <div class="reveal"><span class="eyebrow">Our story</span><h2>Excellent education begins with a clear purpose.</h2><p class="lead">Excellent Leaders College was established to provide disciplined, forward-looking education that equips learners with knowledge and the confidence to lead.</p><p>Our approach connects classroom learning to personal responsibility, communication, creativity and service. Teachers use regular assessment to understand progress and provide the right level of support or challenge.</p><p>Families are important partners. Through the parent portal, school meetings, progress reports and direct communication, parents and guardians remain informed and involved.</p></div>
-          <div class="about-visual reveal"><img src="assets/hero-campus.svg" alt="Excellent Leaders College campus illustration" /></div>
+          <div class="reveal"><span class="eyebrow">Our story</span><h2>Excellent education begins with a clear purpose.</h2><p class="lead">Excellent Leaders Secondary School was established to provide disciplined, forward-looking education that equips learners with knowledge and the confidence to lead.</p><p>Our approach connects classroom learning to personal responsibility, communication, creativity and service. Teachers use regular assessment to understand progress and provide the right level of support or challenge.</p><p>Families are important partners. Through the parent portal, school meetings, progress reports and direct communication, parents and guardians remain informed and involved.</p></div>
+          <div class="about-visual reveal"><img src="assets/hero-campus.svg" alt="Excellent Leaders Secondary School campus illustration" /></div>
         </div>
       </section>
       <section class="section section-soft" id="mission">
         <div class="container"><div class="section-header center"><span class="eyebrow">Mission & values</span><h2>Knowledge. Leadership. Discipline.</h2></div><div class="values-grid"><article class="value-card reveal"><span class="icon-badge">${icon("book-open", "icon-lg")}</span><h3>Our Mission</h3><p>To provide high-quality education that develops capable learners, responsible citizens and principled leaders.</p></article><article class="value-card reveal"><span class="icon-badge">${icon("eye", "icon-lg")}</span><h3>Our Vision</h3><p>To be a trusted school community recognised for academic progress, character and positive leadership.</p></article><article class="value-card reveal"><span class="icon-badge">${icon("shield", "icon-lg")}</span><h3>Our Values</h3><p>Knowledge, leadership, discipline, integrity, respect, service and continuous improvement.</p></article></div></div>
       </section>
       <section class="section" id="principal">
-        <div class="container page-split"><div class="content-card reveal"><span class="eyebrow">Principal’s message</span><h2>Every learner can grow with the right expectations and support.</h2><p>Welcome to Excellent Leaders College. Our responsibility goes beyond helping students pass examinations. We help them develop habits of thought, behaviour and service that will remain valuable throughout life.</p><p>We expect learners to work hard, ask questions, respect others and take responsibility. In return, our staff commit to clear teaching, fair guidance, safe learning and constructive communication with every family.</p><p><strong>Head of School</strong><br /><span style="color:var(--muted)">Excellent Leaders College</span></p></div><div class="admissions-visual reveal"><div class="admissions-card"><h3>A culture of high expectations and genuine care.</h3><p>Professional teaching. Consistent standards. Strong family partnership.</p></div></div></div>
+        <div class="container page-split"><div class="content-card reveal"><span class="eyebrow">Principal’s message</span><h2>Every learner can grow with the right expectations and support.</h2><p>Welcome to Excellent Leaders Secondary School. Our responsibility goes beyond helping students pass examinations. We help them develop habits of thought, behaviour and service that will remain valuable throughout life.</p><p>We expect learners to work hard, ask questions, respect others and take responsibility. In return, our staff commit to clear teaching, fair guidance, safe learning and constructive communication with every family.</p><p><strong>Head of School</strong><br /><span style="color:var(--muted)">Excellent Leaders Secondary School</span></p></div><div class="admissions-visual reveal"><div class="admissions-card"><h3>A culture of high expectations and genuine care.</h3><p>Professional teaching. Consistent standards. Strong family partnership.</p></div></div></div>
       </section>
       <section class="section section-soft" id="staff"><div class="container"><div class="section-header center"><span class="eyebrow">School leadership</span><h2>Meet our core team.</h2><p class="lead">A coordinated team supporting learning, wellbeing and school operations.</p></div><div class="staff-grid">${DATA.staff.map((person) => `<article class="staff-card reveal"><div class="staff-avatar">${person.initials}</div><h3>${person.name}</h3><span class="staff-role">${person.role}</span><p>${person.bio}</p></article>`).join("")}</div></div></section>
       ${callToAction()}`;
@@ -531,7 +531,7 @@
   function contactPage() {
     return `
       ${pageHero("We are ready to answer your questions.", "Contact the school office, admissions team or support desk, or arrange a visit to the campus.", "Contact")}
-      <section class="section"><div class="container contact-grid"><div class="contact-panel reveal"><span class="eyebrow">Contact information</span><h2>Connect with Excellent Leaders College.</h2><p>Use the details below or send a message. For urgent student matters, call the school office directly.</p><div class="contact-detail"><span class="icon-badge">${icon("map-pin")}</span><div><strong>Campus address</strong><span>${DATA.school.address}</span></div></div><div class="contact-detail"><span class="icon-badge">${icon("phone")}</span><div><strong>Telephone</strong><span>${DATA.school.phone}</span></div></div><div class="contact-detail"><span class="icon-badge">${icon("mail")}</span><div><strong>Email</strong><span>${DATA.school.email}</span></div></div><div class="contact-detail"><span class="icon-badge">${icon("clock")}</span><div><strong>Office hours</strong><span>${DATA.school.hours}</span></div></div></div><form class="form-card reveal" data-form="contact"><h2>Send a Message</h2><div class="form-grid"><div class="form-group"><label class="form-label">Full name</label><input class="form-control" name="name" required /></div><div class="form-group"><label class="form-label">Email address</label><input class="form-control" type="email" name="email" required /></div><div class="form-group"><label class="form-label">Phone number</label><input class="form-control" name="phone" /></div><div class="form-group"><label class="form-label">Enquiry type</label><select class="form-control" name="type"><option>General enquiry</option><option>Admissions</option><option>Academic support</option><option>Accounts / fees</option><option>Portal support</option></select></div><div class="form-group full"><label class="form-label">Message</label><textarea class="form-control" name="message" required></textarea></div></div><div class="form-actions"><button class="btn btn-secondary" type="submit">Send Message ${icon("arrow-right")}</button></div></form></div></section>
+      <section class="section"><div class="container contact-grid"><div class="contact-panel reveal"><span class="eyebrow">Contact information</span><h2>Connect with Excellent Leaders Secondary School.</h2><p>Use the details below or send a message. For urgent student matters, call the school office directly.</p><div class="contact-detail"><span class="icon-badge">${icon("map-pin")}</span><div><strong>Campus address</strong><span>${DATA.school.address}</span></div></div><div class="contact-detail"><span class="icon-badge">${icon("phone")}</span><div><strong>Telephone</strong><span>${DATA.school.phone}</span></div></div><div class="contact-detail"><span class="icon-badge">${icon("mail")}</span><div><strong>Email</strong><span>${DATA.school.email}</span></div></div><div class="contact-detail"><span class="icon-badge">${icon("clock")}</span><div><strong>Office hours</strong><span>${DATA.school.hours}</span></div></div></div><form class="form-card reveal" data-form="contact"><h2>Send a Message</h2><div class="form-grid"><div class="form-group"><label class="form-label">Full name</label><input class="form-control" name="name" required /></div><div class="form-group"><label class="form-label">Email address</label><input class="form-control" type="email" name="email" required /></div><div class="form-group"><label class="form-label">Phone number</label><input class="form-control" name="phone" /></div><div class="form-group"><label class="form-label">Enquiry type</label><select class="form-control" name="type"><option>General enquiry</option><option>Admissions</option><option>Academic support</option><option>Accounts / fees</option><option>Portal support</option></select></div><div class="form-group full"><label class="form-label">Message</label><textarea class="form-control" name="message" required></textarea></div></div><div class="form-actions"><button class="btn btn-secondary" type="submit">Send Message ${icon("arrow-right")}</button></div></form></div></section>
       <section class="section section-soft"><div class="container"><div class="map-placeholder"><div class="map-pin">${icon("map-pin", "icon-xl")}</div></div><p style="text-align:center;color:var(--muted);margin-top:16px">Map placeholder — replace the address in <code>js/data.js</code> with the verified campus location before launch.</p></div></section>`;
   }
 
@@ -791,10 +791,10 @@
   }
 
   function makeTitle() {
-    if (state.route === "/portal/login") return "Portal Login | Excellent Leaders College";
+    if (state.route === "/portal/login") return "Portal Login | Excellent Leaders Secondary School";
     if (state.route.startsWith("/portal/") && state.user) return `${portalTitle(state.user.role, portalSection())} | ELC Portal`;
-    const titles = { "/home": "Excellent Leaders College", "/about": "About Us", "/academics": "Academics", "/admissions": "Admissions", "/gallery": "Gallery", "/news": "News & Events", "/contact": "Contact" };
-    return `${titles[state.route] || "Excellent Leaders College"}${state.route === "/home" ? "" : " | Excellent Leaders College"}`;
+    const titles = { "/home": "Excellent Leaders Secondary School", "/about": "About Us", "/academics": "Academics", "/admissions": "Admissions", "/gallery": "Gallery", "/news": "News & Events", "/contact": "Contact" };
+    return `${titles[state.route] || "Excellent Leaders Secondary School"}${state.route === "/home" ? "" : " | Excellent Leaders Secondary School"}`;
   }
 
   function initializeReveal() {
@@ -909,7 +909,7 @@
 
     const newsButton = event.target.closest("[data-news-title]");
     if (newsButton) {
-      openModal(`<div class="modal-header"><div><span class="eyebrow">School news</span><h2>${newsButton.dataset.newsTitle}</h2></div><button class="modal-close" data-close-modal>${icon("close")}</button></div><p class="lead">This is a polished demo article view. The school content team can replace this text with the approved full story, photographs and related links.</p><p>Excellent Leaders College uses news updates to celebrate achievement, communicate school improvement and keep families connected to learning and school life.</p>`);
+      openModal(`<div class="modal-header"><div><span class="eyebrow">School news</span><h2>${newsButton.dataset.newsTitle}</h2></div><button class="modal-close" data-close-modal>${icon("close")}</button></div><p class="lead">This is a polished demo article view. The school content team can replace this text with the approved full story, photographs and related links.</p><p>Excellent Leaders Secondary School uses news updates to celebrate achievement, communicate school improvement and keep families connected to learning and school life.</p>`);
       return;
     }
 
@@ -1041,6 +1041,8 @@
   window.setTimeout(() => document.getElementById("loading-screen")?.classList.add("is-hidden"), 720);
 })();
 
-if ("serviceWorker" in navigator && window.location.protocol.startsWith("http")) {
-  window.addEventListener("load", () => navigator.serviceWorker.register("service-worker.js").catch(() => {}));
-}
+// if ("serviceWorker" in navigator && window.location.protocol.startsWith("http")) {
+//   window.addEventListener("load", () => navigator.serviceWorker.register("service-worker.js").catch(() => {}));
+// }
+
+// Service worker disabled while developing with Live Server.
