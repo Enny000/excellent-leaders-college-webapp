@@ -173,6 +173,9 @@
         <div class="container navbar">
           ${brandMarkup()}
           <nav class="nav-links" id="site-nav" aria-label="Primary navigation">
+            <div class="nav-item nav-item-mobile-portal">
+              <button class="nav-link portal-menu-link" data-route="/portal/login">${icon("lock")} Portal Login</button>
+            </div>
             <div class="nav-item"><button class="nav-link ${navActive("/home")}" data-route="/home">Home</button></div>
             <div class="nav-item has-menu">
               <button class="nav-link ${navActive("/about")}" data-nav-toggle>About ${icon("chevron-down")}</button>
